@@ -26,16 +26,6 @@
 
 ---
 
-## 📸 Application Demo
-
-> **SOC Dashboard — Incident Input Form**
-
-![Dashboard](screenshots/Screenshot__1271_.png)
-
-> **AI Classification Result — Real-time Threat Analysis**
-
-![Result](screenshots/Screenshot__1272_.png)
-
 ---
 
 ## 🧠 What is this Project?
