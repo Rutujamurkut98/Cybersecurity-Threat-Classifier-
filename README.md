@@ -1,9 +1,6 @@
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d3a5c,100:00d4ff&height=200&section=header&text=Cybersecurity%20Threat%20Classifier&fontSize=36&fontColor=ffffff&fontAlignY=38&desc=AI-Powered%20SOC%20Incident%20Triage%20Engine&descAlignY=58&descSize=16" width="100%"/>
-
-</div>
-
 <div align="center">
 
 [![Python](https://img.shields.io/badge/Python-3.10+-FFD43B?style=flat-square&logo=python&logoColor=blue)](https://python.org)
