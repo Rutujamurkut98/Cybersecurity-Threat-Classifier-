@@ -1,4 +1,4 @@
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5b2fb8b4-d5aa-4533-afd1-b511fdd82e59" /><div align="center">
+<div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d3a5c,100:00d4ff&height=200&section=header&text=Cybersecurity%20Threat%20Classifier&fontSize=36&fontColor=ffffff&fontAlignY=38&desc=AI-Powered%20SOC%20Incident%20Triage%20Engine&descAlignY=58&descSize=16" width="100%"/>
 
