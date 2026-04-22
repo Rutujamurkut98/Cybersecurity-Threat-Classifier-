@@ -73,7 +73,7 @@
   .prob-name { color:var(--text); }
   .prob-val { color:var(--accent); }
   .prob-bar-bg { height:6px; background:rgba(255,255,255,0.05); overflow:hidden; }
-  .prob-bar-fill { height:100%; }
+  .prob-bar-fill { height:100%; width:0; }
   .bar-green  { background:linear-gradient(90deg,#00ff88,#00cc70); }
   .bar-orange { background:linear-gradient(90deg,#ffd700,#ff9800); }
   .bar-red    { background:linear-gradient(90deg,#ff3b3b,#cc0000); }
@@ -136,7 +136,7 @@
             {% if cls == 'BenignPositive' %}bar-green
             {% elif cls == 'TruePositive' %}bar-orange
             {% else %}bar-red{% endif %}"
-            style="width:{{ prob }}%"></div>
+            data-prob="{{ prob }}"></div>
         </div>
       </div>
       {% endfor %}
@@ -152,5 +152,12 @@
   <footer><p>CYBER SECURITY THREAT CLASSIFIER AI ENGINE &nbsp;|&nbsp; MICROSOFT GUIDE DATASET &nbsp;|&nbsp; RF CLASSIFIER v1.0</p></footer>
 
 </div>
+<script>
+  document.querySelectorAll('.prob-bar-fill').forEach((bar) => {
+    const value = Number(bar.dataset.prob || 0);
+    const bounded = Math.max(0, Math.min(100, value));
+    bar.style.width = bounded + '%';
+  });
+</script>
 </body>
 </html>
